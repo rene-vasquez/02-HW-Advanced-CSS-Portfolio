@@ -1,0 +1,313 @@
+:root {
+  --gray: #31343c;
+  --blue: #9acbcd;
+  --text: #475974;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styling*/
+
+.nav_links a:link,
+.nav_links a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .title {
+  width: 400px;
+  font-size: 200%;
+  position: relative;
+  color: var(--gray);
+  background-color: var(--blue);
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.nav_links li {
+  display: inline-block;
+  font-size: 120%;
+  margin: 0px 20px;
+  color: var(--blue);
+  background-color: var(--gray);
+  border-bottom: 2px solid;
+  border-color: var(--blue);
+}
+
+/* Banner Styling*/
+
+.hero {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/headshot.jpg");
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero h2 {
+  color: var(--gray);
+  background-color: var(--blue);
+  font-size: 200%;
+  margin: 0px 100px 30px 100px;
+  padding: 10px;
+}
+
+/* Card Styling*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 20px;
+  color: var(--text);
+}
+
+/*Differentiating Card Titles from Content*/
+.card_1,
+.card_3,
+.card_5 {
+  border-right: 3px solid;
+  border-color: var(--text);
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  font-size: 175%;
+}
+
+.card_2 {
+  line-height: 150%;
+}
+
+/* Giving each individual card its layout*/
+.card_4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Styling each individual box within Card 4*/
+.hero1 {
+  height: 400px;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  background-image: linear-gradient(rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0.2)),
+    url("../images/computer.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  border: 5px solid;
+  border-color: var(--blue);
+  padding: 0px;
+}
+
+.hero2 {
+  height: 200px;
+  width: 49%;
+  margin: 10px 0px 10px 0px;
+  background-image: linear-gradient(rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0.2)),
+    url("../images/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  border: 4px solid;
+  border-color: var(--blue);
+  padding: 0px;
+}
+
+.hero3 {
+  height: 200px;
+  width: 49%;
+  margin: 10px 0px 10px 0px;
+  background-image: linear-gradient(rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0.2)),
+    url("../images/city.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  border: 4px solid;
+  border-color: var(--blue);
+  padding: 0px;
+}
+
+.hero4 {
+  height: 200px;
+  width: 49%;
+  margin: 10px 0px 10px 0px;
+  background-image: linear-gradient(rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0.2)),
+    url("../images/building.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  border: 4px solid;
+  border-color: var(--blue);
+  padding: 0px;
+}
+
+.hero5 {
+  height: 200px;
+  width: 49%;
+  margin: 10px 0px 10px 0px;
+  background-image: linear-gradient(rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0.2)),
+    url("../images/dune.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  border: 4px solid;
+  border-color: var(--blue);
+  padding: 0px;
+}
+
+/*Styling text within "hero" boxes*/
+.card_4 div {
+  font-size: 150%;
+  color: var(--gray);
+  background-color: var(--blue);
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.card_4 p{
+  font-size:medium;
+}
+
+.card_6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card_6 ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card_6 li {
+  display: inline;
+  margin: 0px 20px;
+  color: var(--text);
+  border-bottom: 2px solid;
+  border-color: var(--text);
+}
+
+.card_6 a:link,
+.card_6 a:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+
+/*Implementing Media Queries*/
+@media screen and (max-width: 2560px) {
+  .card_1,
+  .card_3,
+  .card_5 {
+    width: 25%;
+  }
+  .card_2,
+  .card_4,
+  .card_6 {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .card_1,
+  .card_3,
+  .card_5 {
+    width: 20%;
+  }
+  .card_2,
+  .card_4,
+  .card_6 {
+    width: 70%;
+  }
+  .hero1,
+  .hero2,
+  .hero3,
+  .hero4,
+  .hero5 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .card_1,
+  .card_3,
+  .card_5 {
+    width: 100%;
+    border-right: 0px;
+    border-bottom: 3px solid;
+    justify-content: center;
+  }
+  .card_2,
+  .card_4,
+  .card_6 {
+    width: 100%;
+  }
+  .hero1,
+  .hero2,
+  .hero3,
+  .hero4,
+  .hero5 {
+    width: 100%;
+  }
+  .hero1 {
+    height: 200px;
+  }
+}
+
+/*Removes tint from pictures when hovering over them*/
+.hero1:hover {
+  background-image:url("../images/computer.jpg");
+}
+
+.hero2:hover {
+  background-image:url("../images/ocean.jpg");
+}
+
+.hero3:hover {
+  background-image:url("../images/city.jpg");
+}
+
+.hero4:hover {
+  background-image:url("../images/building.jpg");
+}
+
+.hero5:hover {
+  background-image:url("../images/dune.jpg");
+}
