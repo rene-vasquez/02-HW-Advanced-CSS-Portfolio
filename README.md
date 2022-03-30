@@ -12,4 +12,4 @@ Help Received:
 I used Kanye Ipsum (http://www.kanye-ipsum.com/) for the generated text because I was feeling particularly inspired haha :)
 I gathered photos from Pexels.com to use for the boxes
 
-Link:
+Link: https://rene-vasquez.github.io/02-HW-Advanced-CSS-Portfolio/
