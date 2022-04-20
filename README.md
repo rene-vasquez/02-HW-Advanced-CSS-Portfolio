@@ -14,4 +14,4 @@ I gathered photos from Pexels.com to use for the boxes
 
 Link: https://rene-vasquez.github.io/02-HW-Advanced-CSS-Portfolio/
 
-![Portfolio Screenshot](./Assets/images/screenshot.png)
+![Portfolio Screenshot](./assets/images/screenshot.png)
