@@ -1,7 +1,7 @@
 :root {
-  --gray: #31343c;
-  --blue: #9acbcd;
-  --text: #475974;
+  --gray: #1b1b1b;
+  --blue: #2d848a;
+  --text: #1b1b1b;
 }
 
 * {
@@ -112,13 +112,17 @@ main section {
   justify-content: space-between;
 }
 
+.card_4 a:link,
+.card_4 a:visited {
+  color: var(--text);
+}
 /* Styling each individual box within Card 4*/
 .hero1 {
   height: 400px;
   width: 100%;
   margin: 10px 0px 10px 0px;
   background-image: linear-gradient(rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0.2)),
-    url("../images/computer.jpg");
+    url("../images/skynotes.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -293,7 +297,7 @@ main section {
 
 /*Removes tint from pictures when hovering over them*/
 .hero1:hover {
-  background-image:url("../images/computer.jpg");
+  background-image:url("../images/skynotes.png");
 }
 
 .hero2:hover {
