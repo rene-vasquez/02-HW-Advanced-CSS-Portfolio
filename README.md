@@ -13,3 +13,5 @@ I used Kanye Ipsum (http://www.kanye-ipsum.com/) for the generated text because 
 I gathered photos from Pexels.com to use for the boxes
 
 Link: https://rene-vasquez.github.io/02-HW-Advanced-CSS-Portfolio/
+
+![Portfolio Screenshot](./Assets/images/screenshot.png)
